@@ -9,3 +9,4 @@ DerivedData/
 build
 *.xcresult
 
+.xcbuild
