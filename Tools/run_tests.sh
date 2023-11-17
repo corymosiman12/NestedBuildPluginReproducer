@@ -20,6 +20,7 @@ run() {
             -toolchain "$TOOLCHAIN" \
             -configuration Debug \
             -destination "$DESTINATION"  \
+            -sdk "$SDK" \
             -scheme "$SCHEME" \
             -enableCodeCoverage YES \
             -derivedDataPath "$BUILD_DIR" \
